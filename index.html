@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+
+
+   <header class="header main-header bg-slate-500 fixed mt-0 mb-0" id="main-header"
+      style="width: 100%; transition: .3s;">
+      <div class="top-bar">
+         <div class="container flex justify-between p-1 border-b border-gray-400">
+            <div class="wt-topbar-right flex items-center">
+               <ul class="list-unstyled e-p-bx flex text-white text-xs gap-3">
+                  <li><a href="">تماس با ما</a></li>
+                  <li><a href="">درباره ما</a></li>
+                  <li><a href="">مقالات</a></li>
+               </ul>
+
+            </div>
+            <div class="contact-tell self-center order3">
+
+               <a class="button text-white text-sm" href="tel:09227601500">09227601500
+                  <i class="fas fa-phone tellP m-1 text-sm"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="container flex justify-between">
+         <div class="row menu-section flex justify-between align-center">
+            <div class="site-logo order2">
+               <a class="self-center" href="<?=  get_site_url() ?>">
+                  <img src="./img/LogoF2.svg" alt="">
+               </a>
+            </div>
+            <nav class="right nav-menu self-center order1">
+               <div class="toggle"><i class="fas fa-bars text-base"></i></div>
+               <ul id="menu" class="menu flex gap-6">
+                  <li class="navSection primary">
+                     <a class="home-icon align-self-center" href="<?=  get_site_url() ?>">
+                        <i class="fa fa-home text-white text-base" aria-hidden="true"></i>
+                     </a>
+                  </li>
+                  <li class="menu-item close">
+                     <i class="fas fa-times text-base"></i>
+                  </li>
+                  <li class="menu-item first-item">
+                     <a class="openLevel js-openLevel" href="#">
+                        کمپرسور
+                        <i class="fa fa-angle-down rotate text-base" aria-hidden="true"></i>
+                     </a>
+
+                     <div class="mega-menu-box mega-menu-box-1 closeLevel js-closeLevel hdg ">
+                        <ul class="menu-menu menu-menu-1 pr-5">
+                           <li class="mega-menu-item">
+
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور1</span>
+                                 </a>
+                              </div>
+
+                              <div class="menucontent ">
+                                 <ul class="items flex pushNav pushNav_level js-pushNavLevel isOpen">
+                                    <li class="">
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر
+
+                                       </a>
+
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class="">
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class="">
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/copeland.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink1" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink1" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/embraco.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور2</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent ">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/embraco.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink1" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink1" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور3</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent ">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/copeland.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink1" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink1" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور4</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent ">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/copeland.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink1" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink1" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/embraco.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور5</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent ">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/embraco.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink1" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink1" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="menu-item first-item">
+                     <a href="#">
+                        کندانسینگ یونیت
+                        <i class="fa fa-angle-down text-base" aria-hidden="true"></i>
+                     </a>
+                     <div class="mega-menu-box">
+                        <ul class="menu-menu menu-menu-2 pr-5">
+                           <li class="mega-menu-item ">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور1</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items items-2 flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/copeland.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink2" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink2" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/embraco.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور2</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/embraco.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink2" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink2" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item ">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور3</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent ">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav ">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/copeland.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink  p-3 flex">
+                                          <a class="subLink2" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink2" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item ">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور4</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent ">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav ">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/embraco.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink  p-3 flex">
+                                          <a class="subLink2" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink2" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item  ">
+                              <div class="flex">
+                                 <img width="50" height="11" src="./img/embraco.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور5</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent ">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav ">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/embraco.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink  p-3 flex">
+                                          <a class="subLink2" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink2" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="menu-item first-item">
+                     <a href="#">
+                        تجهیزات و قطعات
+                        <i class="fa fa-angle-down text-base" aria-hidden="true"></i>
+                     </a>
+                     <div class="mega-menu-box">
+                        <ul class="menu-menu pr-5">
+                           <li class="mega-menu-item ">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور1</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/copeland.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink3" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink3" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item ">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/embraco.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور2</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/embraco.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink3" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink3" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item ">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور3</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/copeland.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink3" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink3" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item ">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور4</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/embraco.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink3" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink3" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item ">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/embraco.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور5</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/embraco.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink3" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink3" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="menu-item first-item">
+                     <a href="#">
+                        گاز مبرد آیسکن
+                        <i class="fa fa-angle-down text-base" aria-hidden="true"></i>
+                     </a>
+                     <div class="mega-menu-box">
+                        <ul class="menu-menu pr-5">
+                           <li class="mega-menu-item">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور1</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/copeland.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink4" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink4" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/embraco.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور2</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/embraco.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink4" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink4" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور3</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/copeland.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink4" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink4" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/copeland.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور4</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/embraco.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink4" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink4" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="mega-menu-item">
+                              <div class="flex mega-menu-title">
+                                 <img width="50" height="11" src="./img/embraco.svg" alt="">
+                                 <a class="pr-2" href="#">
+                                    <span>کمپرسور5</span>
+                                 </a>
+                              </div>
+                              <div class="menucontent">
+                                 <ul class="items flex">
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور1</a></li>
+                                          <li><a href="#" class="title">کمپرسور2</a></li>
+                                          <li><a href="#" class="title">کمپرسور4</a></li>
+                                          <li><a href="#" class="title">کمپرسور5</a></li>
+                                          <li><a href="#" class="title">کمپرسور6</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور7</a></li>
+                                          <li><a href="#" class="title">کمپرسور8</a></li>
+                                          <li><a href="#" class="title">کمپرسور9</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="title">کمپرسور پیستونی بیتزر</a>
+                                       <ul>
+                                          <li><a href="#" class="title">کمپرسور10</a></li>
+                                          <li><a href="#" class="title">کمپرسور11</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                                 <div class="subNav">
+                                    <div class="flex justify-between">
+                                       <div class="items-center flex px-3">
+                                          <a href="#" title="">
+                                             <img width="110" height="42" src="img/copeland.svg" alt=""
+                                                class="entered lazyloaded">
+
+                                          </a>
+                                       </div>
+                                       <div class="subLink p-3 flex">
+                                          <a class="subLink4" href="#" title="کمپرسور های بیتزر">مشاهده کمپرسور های
+                                             بیتزر</a>
+                                          <a class="subLink4" href="#" title="برند بیتزر">برند بیتزر</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+               </ul>
+            </nav>
+
+            <div class="cart order3">
+               <a href="/cart" class="cart-box">
+                  <i class="fas fa-shopping-cart text-base"></i>
+
+                  <div class="icon-qty">2</div>
+               </a>
+               <div class="cart-items d-none"></div>
+            </div>
+
+
+            <div class="extra-nav order4">
+               <!-- Search Icon -->
+               <div class="search-icon" id="search-icon"><i class=" fa fa-search text-base"></i></div>
+               <!-- (Search Box) -->
+               <div class="search-box" id="search-box">
+                  <form action="/" class="search-form" method="get">
+                     <input type="text" name="s" class="search-input" placeholder="جستجو...">
+                     <button class="submit-search"><i class="fa fa-search !text-neutral-950 text-base"></i></button>
+                     <button type="button" class="close-search"><i
+                           class=" fa fa-times text-neutral-950 text-base"></i></button>
+
+                  </form>
+               </div>
+            </div>
+
+            <div class="login-btn self-center order5">
+               <a class="text-white text-sm" href="/my-account">
+                  <i class="fas fa-user text-xs"></i>
+                  <span class="text">ورود/ثبت نام</span>
+               </a>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <script>
+      jQuery(function ($) {
+         function menuScript() {
+            // Toggle menu visibility
+            $('.nav-menu .toggle, .menu-section .menu li.close').on('click', function (e) {
+               $('.nav-menu .menu').toggleClass('active');
+            });
+
+            // Handle mega menu hover for larger screens
+            $('.mega-menu-box ul.menu-menu > li').on('mouseover', function () {
+               if (window.innerWidth > 1024) {
+                  $('.menucontent').removeClass('active');
+                  $(this).find('.menucontent').addClass('active');
+               }
+            });
+
+
+            if (window.innerWidth <= 1024) {
+               $('li.mega-menu-item .mega-menu-title').on('click', function () {
+                  $(this).parent().find('.menucontent').slideToggle()
+               })
+            }
+         }
+         menuScript();
+         $(window).on('resize', menuScript)
+
+         // Toggle visibility of delivery panel
+         $('.delivery-method .tab-title').on('click', function () {
+            $(this).parent().find('.delivery-panel').slideToggle();
+         });
+
+         $(window).on('scroll', function () {
+            if (window.scrollY > 0) {
+               $('#main-header').addClass('active')
+            } else {
+               $('#main-header').removeClass('active')
+            }
+         })
+
+         $('#search-icon, .close-search').on('click', function () {
+            $('#search-box').toggleClass('active')
+         });
+      });
+
+
+
+
+
+
+
+   </script>
+</body>
+
+</html>
